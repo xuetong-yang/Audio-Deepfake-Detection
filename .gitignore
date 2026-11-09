@@ -1,0 +1,19 @@
+# Dataset (download from Zenodo, see README)
+data/
+
+# Training outputs and predictions
+outputs/
+*.pkl
+
+# Leaderboard submission files contain the student ID
+st*-*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
